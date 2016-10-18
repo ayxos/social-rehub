@@ -1,0 +1,87 @@
+#settingIcon {
+    top: 8px;
+    left: 8px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/settings_btn.png);
+    background-size: contain;
+    transition: transform 0.1s;
+    cursor: pointer
+}
+
+#blacklistIcon {
+    top: 8px;
+    right: 8px;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/addBlackList_white.png);
+    background-size: contain;
+    transition: transform 0.2s;
+    cursor: pointer
+}
+
+#status {
+    top: 13px;
+    left: 40px;
+    width: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+#topDescription {
+    top: 40px;
+    left: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+#pauseButton {
+    top: 100px;
+    left: 85px;
+    height: 120px;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#noPauseButton {
+    top: 105px;
+    left: 85px;
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+}
+
+#breakButton {
+    top: 100px;
+    left: 85px;
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    display: none;
+    text-align: center;
+}
+
+#breakText{
+    font-size:30px;
+}
+
+.pausePrompt {
+    top: 0px;
+    left: 0px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    cursor: pointer;
+    display: none;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #222;
+    text-decoration: none;
+}

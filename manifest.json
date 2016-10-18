@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Social re-Hub",
+  "description": "Check your social addiction",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "network.png",
+    "default_popup": "index.html"
+  },
+
+  "permissions": [
+  	"webRequest", 
+  	"webRequestBlocking", 
+  	"<all_urls>",
+    "storage",
+  	"tabs", "https://ajax.googleapis.com/",
+    "alarms"
+  ],
+  "background": {
+    "scripts": [
+		"background.js"
+	]
+  }
+}
